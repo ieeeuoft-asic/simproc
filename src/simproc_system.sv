@@ -54,7 +54,7 @@ module simproc_system #(
     // DP Ram
     dp_ram #(
         .DATA_WIDTH(8),
-        .MEM_DEPTH(48)
+        .MEM_DEPTH(64)
     ) RAM1 (
         .clk(clk),
 
